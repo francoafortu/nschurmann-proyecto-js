@@ -11,3 +11,4 @@ const clickeado = () => {
 
     console.log(a)
 }
+print ("holi")
