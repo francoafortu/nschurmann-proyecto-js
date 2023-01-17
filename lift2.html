@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Change Image on Hover in CSS</title>
+<style>
+    .card {
+        width: 200px;
+        height: 200px;
+        background: url("https://img.freepik.com/iconos-gratis/buscar_318-265146.jpg?w=2000") no-repeat  ;
+        background-size: cover;
+        
+        display: inline-block;
+    }
+    .card:hover {
+        background: url("https://i.pinimg.com/originals/fd/e1/ab/fde1abf2331273092aa0191ce3a7c03f.png") no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 500px;
+    }
+    body {
+        background-color: aqua;
+    }
+</style>
+</head>
+<body>
+    <div class="card"></div>
+</body>
+</html>
